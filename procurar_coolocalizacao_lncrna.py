@@ -24,7 +24,7 @@ for linha in arquivo:
                             saida_join=cromossomo,start,end,name,'---->','  '.join(interaction_a),'<---->','    '.join(interaction_b),'\n'
                             saida_join= ' '.join(saida_join)
                             saida_join=re.sub('\s+','\t',saida_join)
-                            saida.write (saida_join)
+                            saida.write (saida_join+'\n')
                             print saida_join
                             #print (cromossomo,start,end,name,'---->',interaction_a,'<---->',interaction_b)
                     if cromossomo==interaction_b[0]:
@@ -33,7 +33,7 @@ for linha in arquivo:
                             saida_join=(cromossomo,start,end,name,'---->','  '.join(interaction_b),'<---->','  '.join(interaction_a),'\n')
                             saida_join= ' '.join(saida_join)
                             saida_join=re.sub('\s+','\t',saida_join)
-                            saida.write (saida_join)
+                            saida.write (saida_join+'\n')
                             #print cromossomo,start,end,name,'---->',interaction_b,'<---->',interaction_a print saida_join
                             print saida_join
 
