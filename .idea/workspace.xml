@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="441e2619-deac-405d-a394-8d8b4c537dcf" name="Default" comment="todos os 3 scritpts numerados por ordem de execução...agora sim">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1_procurar_coolocalizacao_lncrna.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2_encontrar_marcas_cooloc.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/1_encontrar_marcas_cooloc.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2_procurar_coolocalizacao_lncrna.py" afterPath="" />
+    <list default="true" id="441e2619-deac-405d-a394-8d8b4c537dcf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="topogogia rbp e lncrna.iws" />
@@ -394,7 +390,11 @@
       <created>1389738121346</created>
       <updated>1389738121346</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="todos os 3 scritpts numerados por ordem de execução...agora sim">
+      <created>1389738236374</created>
+      <updated>1389738236374</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
