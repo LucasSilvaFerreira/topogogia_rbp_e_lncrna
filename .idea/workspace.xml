@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="441e2619-deac-405d-a394-8d8b4c537dcf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HeLa_Form.CSAR_PPS_FDR05.bed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/encontrar_marcas_cooloc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saida_procurar_colocalizacao_lncrna.txt" />
+    <list default="true" id="441e2619-deac-405d-a394-8d8b4c537dcf" name="Default" comment="corrigindo erro da falta de enter na saida do arquivo">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/find_refseq.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/refseq.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saida_encontrar_marcas_cooloc.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saida_find_refseq.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/encontrar_marcas_cooloc.py" afterPath="$PROJECT_DIR$/encontrar_marcas_cooloc.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/procurar_coolocalizacao_lncrna.py" afterPath="$PROJECT_DIR$/procurar_coolocalizacao_lncrna.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/saida_procurar_colocalizacao_lncrna.txt" afterPath="$PROJECT_DIR$/saida_procurar_colocalizacao_lncrna.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="topogogia rbp e lncrna.iws" />
@@ -33,7 +35,7 @@
       <file leaf-file-name="procurar_coolocalizacao_lncrna.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/procurar_coolocalizacao_lncrna.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="11" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="882">
+            <state line="38" column="33" selection-start="2256" selection-end="2256" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
@@ -42,16 +44,61 @@
       <file leaf-file-name="encontrar_marcas_cooloc.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/encontrar_marcas_cooloc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="19" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
+            <state line="15" column="42" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" vertical-offset="139" max-vertical-offset="540">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="saida_procurar_colocalizacao_lncrna.txt" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/saida_procurar_colocalizacao_lncrna.txt">
+      <file leaf-file-name="saida_encontrar_marcas_cooloc.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/saida_encontrar_marcas_cooloc.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="20" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="490">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="find_refseq.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/find_refseq.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="29" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="486">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lncipedia.bed.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lncipedia.bed.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20741" column="10" selection-start="2008773" selection-end="2008773" vertical-scroll-proportion="0.3233533" vertical-offset="373230" max-vertical-offset="386892">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="saida_find_refseq.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/saida_find_refseq.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="5" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="refseq.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/refseq.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="28" selection-start="149" selection-end="157" vertical-scroll-proportion="-0.72" vertical-offset="0" max-vertical-offset="884088">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HeLa_Form.CSAR_PPS_FDR05.bed" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HeLa_Form.CSAR_PPS_FDR05.bed">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1083708">
               <folding />
             </state>
           </provider>
@@ -75,17 +122,19 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/encontrar_marcas_cooloc.py" />
         <option value="$PROJECT_DIR$/saida_procurar_colocalizacao_lncrna.txt" />
+        <option value="$PROJECT_DIR$/saida_encontrar_marcas_cooloc.txt" />
+        <option value="$PROJECT_DIR$/encontrar_marcas_cooloc.py" />
         <option value="$PROJECT_DIR$/procurar_coolocalizacao_lncrna.py" />
+        <option value="$PROJECT_DIR$/find_refseq.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1375" />
-    <option name="height" value="876" />
+    <option name="x" value="18" />
+    <option name="y" value="52" />
+    <option name="width" value="1380" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -148,7 +197,7 @@
       <PyConsoleSettings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.procurar_coolocalizacao_lncrna">
+  <component name="RunManager" selected="Python.find_refseq">
     <configuration default="false" name="procurar_coolocalizacao_lncrna" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -182,6 +231,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="topogogia rbp e lncrna" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/encontrar_marcas_cooloc.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="find_refseq" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="topogogia rbp e lncrna" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/find_refseq.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -308,14 +375,16 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.procurar_coolocalizacao_lncrna" />
       <item index="1" class="java.lang.String" itemvalue="Python.encontrar_marcas_cooloc" />
+      <item index="2" class="java.lang.String" itemvalue="Python.find_refseq" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.procurar_coolocalizacao_lncrna" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.find_refseq" />
         <item index="1" class="java.lang.String" itemvalue="Python.encontrar_marcas_cooloc" />
+        <item index="2" class="java.lang.String" itemvalue="Python.procurar_coolocalizacao_lncrna" />
       </list>
     </recent_temporary>
   </component>
@@ -343,21 +412,27 @@
       <created>1389718010272</created>
       <updated>1389718010272</updated>
     </task>
+    <task id="LOCAL-00001" summary="corrigindo erro da falta de enter na saida do arquivo">
+      <created>1389729121172</created>
+      <updated>1389729121172</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1375" height="876" extended-state="6" />
+    <frame x="18" y="52" width="1380" height="800" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31636363" sideWeight="0.6820513" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32971016" sideWeight="0.60653406" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3806818" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31794873" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3934659" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -375,6 +450,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="corrigindo erro da falta de enter na saida do arquivo" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrigindo erro da falta de enter na saida do arquivo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -382,13 +459,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lncipedia.bed.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11509" column="44" selection-start="1091305" selection-end="1091305" vertical-scroll-proportion="0.53950953" vertical-offset="206964" max-vertical-offset="386892">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/python2.7/re.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="227" column="0" selection-start="9907" selection-end="9907" vertical-scroll-proportion="0.0" vertical-offset="3919" max-vertical-offset="5904">
@@ -403,23 +473,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/saida_procurar_colocalizacao_lncrna.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="155" column="100" selection-start="15939" selection-end="15940" vertical-scroll-proportion="0.44329897" vertical-offset="2618" max-vertical-offset="5760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/encontrar_marcas_cooloc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
+        <state line="15" column="42" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" vertical-offset="139" max-vertical-offset="540">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/procurar_coolocalizacao_lncrna.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="11" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="882">
+        <state line="38" column="33" selection-start="2256" selection-end="2256" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="900">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/saida_procurar_colocalizacao_lncrna.txt">
+    <entry file="file://$PROJECT_DIR$/saida_encontrar_marcas_cooloc.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="20" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeLa_Form.CSAR_PPS_FDR05.bed">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1083708">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/refseq.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="28" selection-start="149" selection-end="157" vertical-scroll-proportion="-0.72" vertical-offset="0" max-vertical-offset="884088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saida_find_refseq.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="5" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_refseq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="29" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="486">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lncipedia.bed.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20741" column="10" selection-start="2008773" selection-end="2008773" vertical-scroll-proportion="0.3233533" vertical-offset="373230" max-vertical-offset="386892">
           <folding />
         </state>
       </provider>
