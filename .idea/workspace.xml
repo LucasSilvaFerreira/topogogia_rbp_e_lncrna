@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="441e2619-deac-405d-a394-8d8b4c537dcf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1_encontrar_marcas_cooloc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2_procurar_coolocalizacao_lncrna.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3_find_refseq.py" />
+    <list default="true" id="441e2619-deac-405d-a394-8d8b4c537dcf" name="Default" comment="todos os 3 scritpts numerados por ordem de execução...agora sim">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1_procurar_coolocalizacao_lncrna.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2_encontrar_marcas_cooloc.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1_encontrar_marcas_cooloc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2_procurar_coolocalizacao_lncrna.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="topogogia rbp e lncrna.iws" />
@@ -389,7 +390,11 @@
       <created>1389737357484</created>
       <updated>1389737357484</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="todos os 3 scritpts numerados por ordem de execução...agora sim">
+      <created>1389738121346</created>
+      <updated>1389738121346</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -425,7 +430,8 @@
     </option>
     <MESSAGE value="corrigindo erro da falta de enter na saida do arquivo" />
     <MESSAGE value="todos os 3 scritpts numerados por ordem de execução" />
-    <option name="LAST_COMMIT_MESSAGE" value="todos os 3 scritpts numerados por ordem de execução" />
+    <MESSAGE value="todos os 3 scritpts numerados por ordem de execução...agora sim" />
+    <option name="LAST_COMMIT_MESSAGE" value="todos os 3 scritpts numerados por ordem de execução...agora sim" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
