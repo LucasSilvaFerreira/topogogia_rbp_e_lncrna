@@ -1,9 +1,11 @@
 class thread_processador:
     from itertools import count
-    import thread
+
     '''A funcao principal devera sobrescrita utilizando o seu codigo desejado com ao menos 2 metodos de entrada um para o fim outro para o inicio da tabela'''
     def __init__(self,file,n_process,saida_nome):
         __author__ = 'lucas'
+        import thread,time
+
         '''script generico para fazer uma tread em um arquivo com varias entradas'''
 
         self.numero_threads= n_process
@@ -16,6 +18,8 @@ class thread_processador:
         saida = open(self.saida_nome,'w') #sempre mude para seu arquivo de saida
         #guardando o arquivo em um array para que seja feita a divisao
         self.arquivo_array=[]
+
+
         for arquivo_linha in arquivo.split('\n'):
             if len(arquivo_linha)>0:
                 self.arquivo_array.append(arquivo_linha)
@@ -30,20 +34,20 @@ class thread_processador:
             print inicio_valor,fim_valor
             try:
                 thread.start_new_thread(self.funcao,(inicio_valor,fim_valor))
-                print "Thread "+ thread_numero +" SUCCESSFULLY CREATED"
+                print "Thread "+ thread_numero +"SUCCESSFULLY CREATED"
             except:
                 print "Error: unable to start thread"
-    def funcao(inicio,fim):#teste
+            time.sleep(5)
+    def funcao(self,inicio,fim):#teste
         '''sobrescreva esse metodos'''
         print 'esse metodo deve ser sobrescrito com os parametros presentes nesse arquivo dentro da classe'
         for array_linha in self.arquivo_array[int(inicio):int(fim)]:
             print array_linha
-
 class teste(thread_processador):
     print 'start'
 
 
-teste('refseq.txt',2,'refseq_saida_apagar.txt')
+teste('refseq.txt',1,'refseq_saida_apagar.txt')
 
 
         #def funcao(a,b):
