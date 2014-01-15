@@ -37,7 +37,7 @@ class thread_processador:
                 print "Thread "+ thread_numero +"SUCCESSFULLY CREATED"
             except:
                 print "Error: unable to start thread"
-            time.sleep(5)
+            time.sleep(0.01)
     def funcao(self,inicio,fim):#teste
         '''sobrescreva esse metodos'''
         print 'esse metodo deve ser sobrescrito com os parametros presentes nesse arquivo dentro da classe'
@@ -92,7 +92,7 @@ class teste(thread_processador):
 
 
 
-teste('refseq.txt',1,'refseq_saida_apagar.txt')
+teste('refseq.txt',40,'refseq_saida_apagar.txt')
 
 
         #def funcao(a,b):
