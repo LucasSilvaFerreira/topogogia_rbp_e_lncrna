@@ -1,6 +1,6 @@
 class thread_processador:
     from itertools import count
-    '''A funcao principal devera sobrescrita utilizando o seu codigo desejado'''
+    '''A funcao principal devera sobrescrita utilizando o seu codigo desejado com ao menos 2 metodos de entrada um para o fim outro para o inicio da tabela'''
     def __init__(self,file,n_process,saida_nome):
         __author__ = 'lucas'
         '''script generico para fazer uma tread em um arquivo com varias entradas'''
@@ -32,6 +32,7 @@ class thread_processador:
             except:
                 print "Error: unable to start thread"
     def funcao(inicio,fim):
+
         pass:
 
 

@@ -6,7 +6,9 @@ arquivo_rbp_mark=open('HeLa_Form.CSAR_PPS_FDR05.bed','r').read()
 saida= open('saida_encontrar_marcas_cooloc.txt','w')
 for linha in arquivo_coolocalizados.split('\n'):
     if len(linha)>0:
-
+        gene_chr=linha.split('\t')[0]
+        gene_start=linha.split('\t')[1]
+        gene_end=linha.split('\t')[2]
         interacao_final=linha.split('<---->\t')[1]
         interacao_final=interacao_final.split('\t')
         #print interacao_final
@@ -18,7 +20,7 @@ for linha in arquivo_coolocalizados.split('\n'):
                     end_mark=rbp_mark.split('\t')[2]
                     if int(interacao_final[1])> int(start_mark) and int(interacao_final[1])< int(end_mark):
                        # print linha.split('\t')[3],chr_mark,int(interacao_final[1]),int(start_mark) ,int(end_mark)
-                        saida_formatando= linha.split('\t')[3],chr_mark,(interacao_final[1]),(start_mark),(end_mark)
+                        saida_formatando= linha.split('\t')[3],chr_mark,(interacao_final[1]),(start_mark),(end_mark),linha.split('\t')[3],gene_chr,gene_start,gene_end
                         saida_formatando= '\t'.join(saida_formatando)
                         saida.write(saida_formatando+'\n')
                         print (saida_formatando+'\n')
