@@ -1,10 +1,11 @@
 class thread_processador:
     from itertools import count
+    import thread
     '''A funcao principal devera sobrescrita utilizando o seu codigo desejado com ao menos 2 metodos de entrada um para o fim outro para o inicio da tabela'''
     def __init__(self,file,n_process,saida_nome):
         __author__ = 'lucas'
         '''script generico para fazer uma tread em um arquivo com varias entradas'''
-        import thread
+
         self.numero_threads= n_process
         self.arquivo_escolhido= file
         self.saida_nome=saida_nome
@@ -14,29 +15,35 @@ class thread_processador:
         #salvando o arquivo desejado
         saida = open(self.saida_nome,'w') #sempre mude para seu arquivo de saida
         #guardando o arquivo em um array para que seja feita a divisao
-        arquivo_array=[]
+        self.arquivo_array=[]
         for arquivo_linha in arquivo.split('\n'):
             if len(arquivo_linha)>0:
-                arquivo_array.append(arquivo_linha)
-        tamanho_threads= len(arquivo_array)
+                self.arquivo_array.append(arquivo_linha)
+        tamanho_threads= len(self.arquivo_array)
         print tamanho_threads
-        range_threads= len(arquivo_array)/self.numero_threads
+        range_threads= len(self.arquivo_array)/self.numero_threads
         #
         for thread_numero in range (0,self.numero_threads):
             print thread_numero*range_threads,thread_numero*range_threads+range_threads-1 #estou perdendo o ultimo valor da tabela
-            inicio=thread_numero*range_threads
-            fim=thread_numero*range_threads+range_threads-1
+            inicio_valor=thread_numero*range_threads
+            fim_valor=thread_numero*range_threads+range_threads-1
+            print inicio_valor,fim_valor
             try:
-                thread.start_new_thread(funcao_principal, (inicio,fim) )
+                thread.start_new_thread(self.funcao,(inicio_valor,fim_valor))
                 print "Thread "+ thread_numero +" SUCCESSFULLY CREATED"
             except:
                 print "Error: unable to start thread"
-    def funcao(inicio,fim):
+    def funcao(inicio,fim):#teste
+        '''sobrescreva esse metodos'''
+        print 'esse metodo deve ser sobrescrito com os parametros presentes nesse arquivo dentro da classe'
+        for array_linha in self.arquivo_array[int(inicio):int(fim)]:
+            print array_linha
 
-        pass:
+class teste(thread_processador):
+    print 'start'
 
 
-
+teste('refseq.txt',2,'refseq_saida_apagar.txt')
 
 
         #def funcao(a,b):
