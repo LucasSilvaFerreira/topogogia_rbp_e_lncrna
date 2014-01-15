@@ -103,4 +103,4 @@ class teste(thread_processador):
 
 
 
-teste('linc_enseml.txt',3,'refseq_saida_apagar.txt')
+teste('linc_enseml.txt',70,'saida_procurar_colocalizacao_lncrna.txt')
