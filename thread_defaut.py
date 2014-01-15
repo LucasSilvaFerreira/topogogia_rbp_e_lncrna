@@ -36,8 +36,8 @@ class thread_processador:
                 thread.start_new_thread(self.funcao,(inicio_valor,fim_valor))
                 print "Thread "+ thread_numero +"SUCCESSFULLY CREATED"
             except:
-                print "Error: unable to start thread"
-            time.sleep(0.01)
+                print "Error: unable to start thread: "+str(thread_numero)
+            time.sleep(1)
     def funcao(self,inicio,fim):#teste
         '''sobrescreva esse metodos'''
         print 'esse metodo deve ser sobrescrito com os parametros presentes nesse arquivo dentro da classe'
@@ -47,9 +47,13 @@ class thread_processador:
 
 class teste(thread_processador):
     print 'start'
-    chia_pet_file=open('hela_s3_chia_pet_pol2.bed','r').read()
+
+
     #arquivo= open('linc_enseml.txt','r')
     def funcao(self,inicio,fim):
+        import re
+        self.chia_pet_file=open('hela_s3_chia_pet_pol2.bed','r').read()
+
         for linha in self.arquivo_array[int(inicio):int(fim)]:
             if re.search('chr(\d+|.)\t',linha):
                 cromossomo= linha.split()[2]
@@ -58,7 +62,7 @@ class teste(thread_processador):
                 name=linha.split()[1]
                 #print '->',name
                 #print cromossomo,start,end,name
-                for top_coordenada in chia_pet_file.split('\n'):
+                for top_coordenada in self.chia_pet_file.split('\n'):
                     if len(top_coordenada)!=0:
                         processando_interacores=top_coordenada.split('\t')[3].split(',')[0].split('-')
 
@@ -70,7 +74,7 @@ class teste(thread_processador):
                                     saida_join=cromossomo,start,end,name,'---->','  '.join(interaction_a),'<---->','    '.join(interaction_b),'\n'
                                     saida_join= ' '.join(saida_join)
                                     saida_join=re.sub('\s+','\t',saida_join)
-                                    saida.write (saida_join+'\n')
+                                    self.saida.write (saida_join+'\n')
                                     print saida_join
                                     #print (cromossomo,start,end,name,'---->',interaction_a,'<---->',interaction_b)
                             if cromossomo==interaction_b[0]:
@@ -92,7 +96,7 @@ class teste(thread_processador):
 
 
 
-teste('refseq.txt',40,'refseq_saida_apagar.txt')
+teste('linc_enseml.txt',3,'refseq_saida_apagar.txt')
 
 
         #def funcao(a,b):
