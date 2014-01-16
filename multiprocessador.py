@@ -17,6 +17,7 @@ class thread_processador:
         self.numero_threads= n_process
         self.arquivo_escolhido= file
         self.saida_nome=saida_nome
+        self.saida_unica=[]
 
         #abrindo o arquivo desejado
         arquivo = open(self.arquivo_escolhido,'r').read() #sempre mude para seu arquivo
@@ -45,6 +46,10 @@ class thread_processador:
                 print "Thread "+ thread_numero +"SUCCESSFULLY CREATED"
             except:
                 print "Error: unable to start multiprocess  : "+str(thread_numero)
+        for salvando in self.saida_unica:
+            self.saida.write(salvando+'\n')
+        self.saida.close()
+
     def funcao(self,inicio,fim):#teste
         '''sobrescreva esse metodos'''
         print 'esse metodo deve ser sobrescrito com os parametros presentes nesse arquivo dentro da classe'
@@ -81,7 +86,8 @@ class teste(thread_processador):
                                     saida_join=cromossomo,start,end,name,'---->','  '.join(interaction_a),'<---->','    '.join(interaction_b),'\n'
                                     saida_join= ' '.join(saida_join)
                                     saida_join=re.sub('\s+','\t',saida_join)
-                                    self.saida.write (saida_join+'\n')
+                                    #self.saida.write(saida_join+'\n')
+                                    self.saida_unica.append(saida_join)
                                     print saida_join
                                     #print (cromossomo,start,end,name,'---->',interaction_a,'<---->',interaction_b)
                             if cromossomo==interaction_b[0]:
@@ -90,7 +96,8 @@ class teste(thread_processador):
                                     saida_join=(cromossomo,start,end,name,'---->','  '.join(interaction_b),'<---->','  '.join(interaction_a),'\n')
                                     saida_join= ' '.join(saida_join)
                                     saida_join=re.sub('\s+','\t',saida_join)
-                                    self.saida.write (saida_join+'\n')
+                                    #self.saida.write(saida_join+'\n')
+                                    self.saida_unica.append(saida_join)
                                     #print cromossomo,start,end,name,'---->',interaction_b,'<---->',interaction_a print saida_join
                                     print saida_join
                                     break
