@@ -53,11 +53,16 @@ class thread_processador:
 
 
     def funcao(self,inicio,fim):#teste
-        array_temporario=[]
+        self.array_temporario=[]
         '''sobrescreva esse metodos'''
+        self.arquivo_para_cruzar=open('arquivo_para_abrir','r').read()
         print 'esse metodo deve ser sobrescrito com os parametros presentes nesse arquivo dentro da classe'
         for array_linha in self.arquivo_array[int(inicio):int(fim)]:
             print array_linha
+        for escrever in self.array_temporario: #isso deve ser executado apenas no final da funcao
+            self.saida.write(escrever+'\n')
+
+
 
 
 class teste(thread_processador):
@@ -92,7 +97,7 @@ class teste(thread_processador):
                                     saida_join=re.sub('\s+','\t',saida_join)
                                     #self.saida.write(saida_join+'\n')
                                     self.array_temporario.append(saida_join)
-                                    #print saida_join
+                                    print saida_join
                             if cromossomo==interaction_b[0]:
                                 if int(start)> int(interaction_b[1])and int(start)< int(interaction_b[2]):
 
@@ -101,7 +106,7 @@ class teste(thread_processador):
                                     saida_join=re.sub('\s+','\t',saida_join)
                                     #self.saida.write(saida_join+'\n')
                                     self.array_temporario.append(saida_join)
-                                    #print saida_join
+                                    print saida_join
                                     break
 
                 for escrever in self.array_temporario:
