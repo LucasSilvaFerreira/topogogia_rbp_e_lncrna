@@ -39,9 +39,8 @@ class thread_processador:
             inicio_valor=thread_numero*range_threads
             fim_valor=thread_numero*range_threads+range_threads-1
             print inicio_valor,fim_valor
-            print "Thread "+ thread_numero +"SUCCESSFULLY CREATED"
-            p = multiprocessing.Process(target=self.funcao, args=(inicio_valor,fim_valor)).start()
-
+            print "Thread "+ str(thread_numero) + "SUCCESSFULLY CREATED"
+            p = multiprocessing.Process(target=self.funcao, args=(inicio_valor,fim_valor))
             p.start()
             p.join()
             #self.jobs.append(p)
@@ -92,7 +91,7 @@ class teste(thread_processador):
                                     saida_join= ' '.join(saida_join)
                                     saida_join=re.sub('\s+','\t',saida_join)
                                     #self.saida.write(saida_join+'\n')
-                                    self.array_temporario(saida_join)
+                                    self.array_temporario.append(saida_join)
                                     #print saida_join
                             if cromossomo==interaction_b[0]:
                                 if int(start)> int(interaction_b[1])and int(start)< int(interaction_b[2]):
@@ -101,7 +100,7 @@ class teste(thread_processador):
                                     saida_join= ' '.join(saida_join)
                                     saida_join=re.sub('\s+','\t',saida_join)
                                     #self.saida.write(saida_join+'\n')
-                                    self.array_temporario(saida_join)
+                                    self.array_temporario.append(saida_join)
                                     #print saida_join
                                     break
 
