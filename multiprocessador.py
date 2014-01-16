@@ -42,7 +42,7 @@ class thread_processador:
             print "Thread "+ str(thread_numero) + "SUCCESSFULLY CREATED"
             p = multiprocessing.Process(target=self.funcao, args=(inicio_valor,fim_valor))
             p.start()
-            p.join()
+            #p.join()
             #self.jobs.append(p)
 
         #for salvando in self.saida_unica:
