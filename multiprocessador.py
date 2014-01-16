@@ -39,23 +39,22 @@ class thread_processador:
             inicio_valor=thread_numero*range_threads
             fim_valor=thread_numero*range_threads+range_threads-1
             print inicio_valor,fim_valor
-            try:
-                p = multiprocessing.Process(target=self.funcao, args=(inicio_valor,fim_valor)).start()
+            print "Thread "+ thread_numero +"SUCCESSFULLY CREATED"
+            p = multiprocessing.Process(target=self.funcao, args=(inicio_valor,fim_valor)).start()
 
-                p.start()
-                p.join()
-                self.jobs.append(p)
-                print "Thread "+ thread_numero +"SUCCESSFULLY CREATED"
-            except:
-                print "Error: unable to start multiprocess  : "+str(thread_numero)
-        for salvando in self.saida_unica:
-            self.saida.write(salvando+'\n')
+            p.start()
+            p.join()
+            #self.jobs.append(p)
+
+        #for salvando in self.saida_unica:
+        #    self.saida.write(salvando+'\n')
         #while True:
         #    for
         #    print len(self.jobs)
 
 
     def funcao(self,inicio,fim):#teste
+        array_temporario=[]
         '''sobrescreva esse metodos'''
         print 'esse metodo deve ser sobrescrito com os parametros presentes nesse arquivo dentro da classe'
         for array_linha in self.arquivo_array[int(inicio):int(fim)]:
@@ -69,6 +68,7 @@ class teste(thread_processador):
     #arquivo= open('linc_enseml.txt','r')
     def funcao(self,inicio,fim):
         import re
+        self.array_temporario=[]
         self.chia_pet_file=open('hela_s3_chia_pet_pol2.bed','r').read()
 
         for linha in self.arquivo_array[int(inicio):int(fim)]:
@@ -92,7 +92,7 @@ class teste(thread_processador):
                                     saida_join= ' '.join(saida_join)
                                     saida_join=re.sub('\s+','\t',saida_join)
                                     #self.saida.write(saida_join+'\n')
-                                    self.saida_unica.append(saida_join)
+                                    self.array_temporario(saida_join)
                                     #print saida_join
                             if cromossomo==interaction_b[0]:
                                 if int(start)> int(interaction_b[1])and int(start)< int(interaction_b[2]):
@@ -101,9 +101,12 @@ class teste(thread_processador):
                                     saida_join= ' '.join(saida_join)
                                     saida_join=re.sub('\s+','\t',saida_join)
                                     #self.saida.write(saida_join+'\n')
-                                    self.saida_unica.append(saida_join)
+                                    self.array_temporario(saida_join)
                                     #print saida_join
                                     break
+
+                for escrever in self.array_temporario:
+                    self.saida.write(escrever+'\n')
 
                         #print interaction_a
 
