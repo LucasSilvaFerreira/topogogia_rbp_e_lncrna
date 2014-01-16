@@ -68,7 +68,7 @@ class teste(thread_processador):
     def funcao(self,inicio,fim):
         import re
         self.array_temporario=[]
-        self.chia_pet_file=open('hela_s3_chia_pet_pol2.bed','r').read()
+        self.chia_pet_file=open('k562_s3_chia_pet_pol2.bed','r').read()
 
         for linha in self.arquivo_array[int(inicio):int(fim)]:
             if re.search('chr(\d+|.)\t',linha):

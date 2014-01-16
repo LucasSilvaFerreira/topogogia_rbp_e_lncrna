@@ -29,8 +29,8 @@ class setar_threads:
             thread.start()
             self.threads.append(thread)
 
-        for thread in self.threads:
-            thread.join()
+        #for thread in self.threads:
+        #    thread.join()
 
 class usar_thread(threading.Thread):
 
