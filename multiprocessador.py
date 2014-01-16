@@ -41,15 +41,18 @@ class thread_processador:
             print inicio_valor,fim_valor
             try:
                 p = multiprocessing.Process(target=self.funcao, args=(inicio_valor,fim_valor)).start()
-                self.jobs.append(p)
+
                 p.start()
+                p.join()
+                self.jobs.append(p)
                 print "Thread "+ thread_numero +"SUCCESSFULLY CREATED"
             except:
                 print "Error: unable to start multiprocess  : "+str(thread_numero)
-        #for salvando in self.saida_unica:
-        #    self.saida.write(salvando+'\n')
-        while True:
-            print len(self.jobs)
+        for salvando in self.saida_unica:
+            self.saida.write(salvando+'\n')
+        #while True:
+        #    for
+        #    print len(self.jobs)
 
 
     def funcao(self,inicio,fim):#teste
