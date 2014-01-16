@@ -46,9 +46,11 @@ class thread_processador:
                 print "Thread "+ thread_numero +"SUCCESSFULLY CREATED"
             except:
                 print "Error: unable to start multiprocess  : "+str(thread_numero)
-        for salvando in self.saida_unica:
-            self.saida.write(salvando+'\n')
-        self.saida.close()
+        #for salvando in self.saida_unica:
+        #    self.saida.write(salvando+'\n')
+        while True:
+            print len(self.jobs)
+
 
     def funcao(self,inicio,fim):#teste
         '''sobrescreva esse metodos'''
@@ -88,8 +90,7 @@ class teste(thread_processador):
                                     saida_join=re.sub('\s+','\t',saida_join)
                                     #self.saida.write(saida_join+'\n')
                                     self.saida_unica.append(saida_join)
-                                    print saida_join
-                                    #print (cromossomo,start,end,name,'---->',interaction_a,'<---->',interaction_b)
+                                    #print saida_join
                             if cromossomo==interaction_b[0]:
                                 if int(start)> int(interaction_b[1])and int(start)< int(interaction_b[2]):
 
@@ -98,8 +99,7 @@ class teste(thread_processador):
                                     saida_join=re.sub('\s+','\t',saida_join)
                                     #self.saida.write(saida_join+'\n')
                                     self.saida_unica.append(saida_join)
-                                    #print cromossomo,start,end,name,'---->',interaction_b,'<---->',interaction_a print saida_join
-                                    print saida_join
+                                    #print saida_join
                                     break
 
                         #print interaction_a
