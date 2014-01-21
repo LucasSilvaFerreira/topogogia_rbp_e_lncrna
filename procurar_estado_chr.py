@@ -40,5 +40,5 @@ class Procurar_cromatina(thread_processador):
 
 
 
-Procurar_cromatina('saida_procurar_colocalizacao_lncrna.txt',1,'saida_cromatina_hmm_estados.txt')
+Procurar_cromatina('saida_procurar_colocalizacao_lncrna.txt',1,'saida_cromatina_hmm_estados_2.txt')
 

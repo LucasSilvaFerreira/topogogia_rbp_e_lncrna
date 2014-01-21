@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="441e2619-deac-405d-a394-8d8b4c537dcf" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/saida_cromatina_hmm_estados.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/saida_procurar_colocalizacao_lncrna.txt" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ensembl.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ensembl_gtf_merge.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saida_cromatina_hmm_uniq_estados.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saida_ensembl.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/procurar_estado_chr.py" afterPath="$PROJECT_DIR$/procurar_estado_chr.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -55,10 +57,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="procurar_estado_chr.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="procurar_estado_chr.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/procurar_estado_chr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="25" selection-start="2011" selection-end="2011" vertical-scroll-proportion="0.45728642" vertical-offset="502" max-vertical-offset="900">
+            <state line="42" column="0" selection-start="2015" selection-end="2114" vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="900">
+              <folding>
+                <marker date="1390339939514" expanded="true" signature="153:2011" placeholder="..." />
+                <marker date="1390339939514" expanded="true" signature="188:2011" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ensembl_gtf_merge.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ensembl_gtf_merge.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="27" selection-start="1383" selection-end="1383" vertical-scroll-proportion="0.35443038" vertical-offset="228" max-vertical-offset="702">
               <folding />
             </state>
           </provider>
@@ -105,8 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/saida_encontrar_marcas_cooloc.txt" />
-        <option value="$PROJECT_DIR$/encontrar_marcas_cooloc.py" />
         <option value="$PROJECT_DIR$/procurar_coolocalizacao_lncrna.py" />
         <option value="$PROJECT_DIR$/find_refseq.py" />
         <option value="$PROJECT_DIR$/2_encontrar_marcas_cooloc.py" />
@@ -119,16 +131,18 @@
         <option value="$PROJECT_DIR$/setar_threads.py" />
         <option value="$PROJECT_DIR$/multiprocesso_classe.py" />
         <option value="$PROJECT_DIR$/multiprocessador.py" />
-        <option value="$PROJECT_DIR$/procurar_estado_chr.py" />
         <option value="$PROJECT_DIR$/saida_procurar_colocalizacao_lncrna.txt" />
+        <option value="$PROJECT_DIR$/procurar_estado_chr.py" />
+        <option value="$PROJECT_DIR$/Ensembl.txt" />
+        <option value="$PROJECT_DIR$/Ensembl_gtf_merge.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="95" />
-    <option name="y" value="54" />
-    <option name="width" value="1380" />
-    <option name="height" value="800" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1375" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -215,25 +229,119 @@
       <recent name="$PROJECT_DIR$/primeira analise com lncpedia files" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.procurar_estado_chr">
-    <configuration default="false" name="thread_defaut" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="topogogia rbp e lncrna" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/thread_defaut.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RestoreUpdateTree">
+    <UpdateInfo date="Moments ago" ActionInfo="_Update">
+      <UpdatedFiles>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated from server" />
+          <option name="myStatusName" value="Changed on server" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CHANGED_ON_SERVER" />
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Updated" />
+            <option name="myStatusName" value="Changed" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="UPDATED" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Created" />
+            <option name="myStatusName" value="Created" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="CREATED" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/saida_cromatina_hmm_estados.txt</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Deleted" />
+            <option name="myStatusName" value="Deleted" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="true" />
+            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Restored" />
+            <option name="myStatusName" value="Will be restored" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="RESTORED" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Modified" />
+          <option name="myStatusName" value="Modified" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MODIFIED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Skipped" />
+          <option name="myStatusName" value="Skipped" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SKIPPED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with conflicts" />
+          <option name="myStatusName" value="Will be merged with conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with tree conflicts" />
+          <option name="myStatusName" value="Merged with tree conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with property conflicts" />
+          <option name="myStatusName" value="Will be merged with property conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged" />
+          <option name="myStatusName" value="Will be merged" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Not in repository" />
+          <option name="myStatusName" value="Not in repository" />
+          <option name="mySupportsDeletion" value="true" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UNKNOWN" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally added" />
+          <option name="myStatusName" value="Locally added" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_ADDED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally removed" />
+          <option name="myStatusName" value="Locally removed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_REMOVED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Switched" />
+          <option name="myStatusName" value="Switched" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SWITCHED" />
+        </FILE-GROUP>
+      </UpdatedFiles>
+    </UpdateInfo>
+  </component>
+  <component name="RunManager" selected="Python.Ensembl_gtf_merge">
     <configuration default="false" name="nova_thread_teste" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -301,6 +409,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="topogogia rbp e lncrna" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/procurar_estado_chr.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Ensembl_gtf_merge" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="topogogia rbp e lncrna" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ensembl_gtf_merge.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -428,19 +554,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.thread_defaut" />
-      <item index="1" class="java.lang.String" itemvalue="Python.nova_thread_teste" />
-      <item index="2" class="java.lang.String" itemvalue="Python.setar_threads" />
-      <item index="3" class="java.lang.String" itemvalue="Python.multiprocessador" />
-      <item index="4" class="java.lang.String" itemvalue="Python.procurar_estado_chr" />
+      <item index="0" class="java.lang.String" itemvalue="Python.nova_thread_teste" />
+      <item index="1" class="java.lang.String" itemvalue="Python.setar_threads" />
+      <item index="2" class="java.lang.String" itemvalue="Python.multiprocessador" />
+      <item index="3" class="java.lang.String" itemvalue="Python.procurar_estado_chr" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Ensembl_gtf_merge" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.procurar_estado_chr" />
-        <item index="1" class="java.lang.String" itemvalue="Python.multiprocessador" />
-        <item index="2" class="java.lang.String" itemvalue="Python.setar_threads" />
-        <item index="3" class="java.lang.String" itemvalue="Python.nova_thread_teste" />
-        <item index="4" class="java.lang.String" itemvalue="Python.thread_defaut" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Ensembl_gtf_merge" />
+        <item index="1" class="java.lang.String" itemvalue="Python.procurar_estado_chr" />
+        <item index="2" class="java.lang.String" itemvalue="Python.multiprocessador" />
+        <item index="3" class="java.lang.String" itemvalue="Python.setar_threads" />
+        <item index="4" class="java.lang.String" itemvalue="Python.nova_thread_teste" />
       </list>
     </recent_temporary>
   </component>
@@ -564,11 +690,15 @@
       <created>1389903345516</created>
       <updated>1389903345516</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="programa de cromatina testar saida">
+      <created>1389909681515</created>
+      <updated>1389909681515</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="95" y="54" width="1380" height="800" extended-state="0" />
+    <frame x="65" y="24" width="1375" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -576,12 +706,12 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28405797" sideWeight="0.65909094" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28654546" sideWeight="0.6923077" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3806818" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3409091" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30769232" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -616,7 +746,8 @@
     <MESSAGE value="Tentando fazer o arquivo ser salvo em um único lugar 2" />
     <MESSAGE value="Tentando fazer o arquivo ser salvo em um único lugar 3" />
     <MESSAGE value="funcionou os save&#10;Mudando de linhagem celular k562" />
-    <option name="LAST_COMMIT_MESSAGE" value="funcionou os save&#10;Mudando de linhagem celular k562" />
+    <MESSAGE value="programa de cromatina testar saida" />
+    <option name="LAST_COMMIT_MESSAGE" value="programa de cromatina testar saida" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -626,7 +757,9 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/3_find_refseq.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="173" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="558" />
+        <state line="22" column="173" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="558">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lncipedia.bed.txt">
@@ -667,13 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2_encontrar_marcas_cooloc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="68" selection-start="136" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/refseq.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41248" column="16" selection-start="11813468" selection-end="11813491" vertical-scroll-proportion="-4.96" vertical-offset="742340" max-vertical-offset="884088">
@@ -684,13 +810,6 @@
     <entry file="file://$PROJECT_DIR$/hela_s3_chia_pet_pol2.bed">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1149714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multiprocesso_classe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="22" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
           <folding />
         </state>
       </provider>
@@ -712,9 +831,38 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2_encontrar_marcas_cooloc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="68" selection-start="136" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/procurar_estado_chr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="25" selection-start="2011" selection-end="2011" vertical-scroll-proportion="0.45728642" vertical-offset="502" max-vertical-offset="900">
+        <state line="42" column="0" selection-start="2015" selection-end="2114" vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="900">
+          <folding>
+            <marker date="1390339939514" expanded="true" signature="153:2011" placeholder="..." />
+            <marker date="1390339939514" expanded="true" signature="188:2011" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multiprocesso_classe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="22" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ensembl.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ensembl_gtf_merge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="27" selection-start="1383" selection-end="1383" vertical-scroll-proportion="0.35443038" vertical-offset="228" max-vertical-offset="702">
           <folding />
         </state>
       </provider>
