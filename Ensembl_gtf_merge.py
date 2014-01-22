@@ -17,9 +17,15 @@ class ensembl_procura(thread_processador):
             for ensembl in self.arquivo_para_cruzar.split('\n'):
                 if len(ensembl)>0:
                     if pair_chr == ensembl.split('\t')[2]:
+                        '''essa parte de bater apenas no start deve ser revista'''
                         if int(pair_start)> int(ensembl.split('\t')[4]) and int(pair_start)< int(ensembl.split('\t')[5]):
                             #print ensembl.split('\t')[1]
                             #self.array_temporario.append(array_linha+'\t'+ensembl.split('\t')[1]+'\t'+ensembl.split('\t')[3])
+                            print(array_linha+'\t'+pair_chr+':'+pair_start+'-'+pair_end+'\t'+ensembl.split('\t')[1]+'\t'+ensembl.split('\t')[3])
+                            self.array_temporario.append(array_linha+'\t'+pair_chr+':'+pair_start+'-'+pair_end+'\t'+ensembl.split('\t')[1]+'\t'+ensembl.split('\t')[3])
+
+                            break
+                        if int(pair_end)> int(ensembl.split('\t')[4]) and int(pair_end)< int(ensembl.split('\t')[5]):
                             print(array_linha+'\t'+pair_chr+':'+pair_start+'-'+pair_end+'\t'+ensembl.split('\t')[1]+'\t'+ensembl.split('\t')[3])
                             self.array_temporario.append(array_linha+'\t'+pair_chr+':'+pair_start+'-'+pair_end+'\t'+ensembl.split('\t')[1]+'\t'+ensembl.split('\t')[3])
 

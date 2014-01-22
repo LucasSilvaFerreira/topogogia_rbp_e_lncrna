@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="441e2619-deac-405d-a394-8d8b4c537dcf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ensembl.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ensembl_gtf_merge.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saida_cromatina_hmm_uniq_estados.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saida_ensembl.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/procurar_estado_chr.py" afterPath="$PROJECT_DIR$/procurar_estado_chr.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ensembl_gtf_merge.py" afterPath="$PROJECT_DIR$/Ensembl_gtf_merge.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="topogogia rbp e lncrna.iws" />
@@ -72,7 +68,7 @@
       <file leaf-file-name="Ensembl_gtf_merge.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ensembl_gtf_merge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="27" selection-start="1383" selection-end="1383" vertical-scroll-proportion="0.35443038" vertical-offset="228" max-vertical-offset="702">
+            <state line="31" column="33" selection-start="2252" selection-end="2252" vertical-scroll-proportion="0.9156118" vertical-offset="124" max-vertical-offset="810">
               <folding />
             </state>
           </provider>
@@ -694,7 +690,11 @@
       <created>1389909681515</created>
       <updated>1389909681515</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="colocando scritp para procurar ensembl">
+      <created>1390342625075</created>
+      <updated>1390342625075</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -747,7 +747,8 @@
     <MESSAGE value="Tentando fazer o arquivo ser salvo em um único lugar 3" />
     <MESSAGE value="funcionou os save&#10;Mudando de linhagem celular k562" />
     <MESSAGE value="programa de cromatina testar saida" />
-    <option name="LAST_COMMIT_MESSAGE" value="programa de cromatina testar saida" />
+    <MESSAGE value="colocando scritp para procurar ensembl" />
+    <option name="LAST_COMMIT_MESSAGE" value="colocando scritp para procurar ensembl" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -862,7 +863,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ensembl_gtf_merge.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="27" selection-start="1383" selection-end="1383" vertical-scroll-proportion="0.35443038" vertical-offset="228" max-vertical-offset="702">
+        <state line="31" column="33" selection-start="2252" selection-end="2252" vertical-scroll-proportion="0.9156118" vertical-offset="124" max-vertical-offset="810">
           <folding />
         </state>
       </provider>
