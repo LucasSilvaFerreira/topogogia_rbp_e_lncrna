@@ -29,5 +29,5 @@ class atribuindo_nomes(thread_processador):
         self.set_saida(self.array_temporario)
         #for escrever in self.array_temporario: #isso deve ser executado apenas no final da funcao
         #    self.saida_unica.append(escrever + '\n')
-atribuindo_nomes('saida_ensembl.txt',70,'saida_fpkm_ensembl.txt')
+atribuindo_nomes('saida_ensembl.txt',4,'saida_fpkm_ensembl.txt')
 

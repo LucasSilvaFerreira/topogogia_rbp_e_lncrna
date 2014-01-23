@@ -31,9 +31,10 @@ class ensembl_procura(thread_processador):
                             break
                    # print ensembl
             #print array_linha
-        for escrever in self.array_temporario: #isso deve ser executado apenas no final da funcao
-            print escrever
-            self.saida.write(escrever + '\n')
+        self.set_saida(self.array_temporario)
+        #for escrever in self.array_temporario: #isso deve ser executado apenas no final da funcao
+            #print escrever
+            #self.saida.write(escrever + '\n')
 
 
-ensembl_procura('saida_cromatina_hmm_uniq_estados.txt',4,'saida_ensembl.txt')
+ensembl_procura('saida_cromatina_hmm_estados.txt',4,'saida_ensembl.txt')

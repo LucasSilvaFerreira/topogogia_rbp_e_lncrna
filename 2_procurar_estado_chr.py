@@ -27,18 +27,17 @@ class Procurar_cromatina(thread_processador):
                                 #print proximo
                                 estados_saida= estados_saida+ '|'+ proximo[3]
                                 proximo = self.arquivo_para_cruzar.next().split('\t')
-                            print estados_saida
+                            #print estados_saida
                             print array_linha+'\t'+estados_saida
                             self.array_temporario.append(array_linha+'\t'+estados_saida)
                             break
             self.arquivo_para_cruzar.close()
+        self.set_saida(self.array_temporario)
 
-        for escrever in self.array_temporario: #isso deve ser executado apenas no final da funcao
-            print escrever
-            self.saida.write(escrever + '\n')
-        print 'concluded'
+        #for escrever in self.array_temporario: #isso deve ser executado apenas no final da funcao
+        #    print escrever
+        #    self.saida.write(escrever + '\n')
+        #print 'concluded'
 
-
-
-Procurar_cromatina('saida_procurar_colocalizacao_lncrna.txt',1,'saida_cromatina_hmm_estados_2.txt')
+Procurar_cromatina('saida_procurar_colocalizacao_lncrna.txt',4,'saida_cromatina_hmm_estados.txt')
 

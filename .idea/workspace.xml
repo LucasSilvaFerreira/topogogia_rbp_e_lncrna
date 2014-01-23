@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="441e2619-deac-405d-a394-8d8b4c537dcf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/atribuir_fpkm_enseml.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final_TSS-Cufflinks-0.9.3-GENCODE-v3c-K562-rep1.gtf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/saida_fpkm_ensembl.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ensembl_gtf_merge.py" afterPath="$PROJECT_DIR$/Ensembl_gtf_merge.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1_procurar_interacoes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2_procurar_estado_chr.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3_ensembl_gtf_merge.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4_atribuir_fpkm_enseml.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/escripts_obsoletos/__init__.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Ensembl_gtf_merge.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/atribuir_fpkm_enseml.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/competidor_threading.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/multiprocessador.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/procurar_estado_chr.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/1_lincsenseml_procurar_coolocalizacao_lncrna.py" afterPath="$PROJECT_DIR$/escripts_obsoletos/1_lincsenseml_procurar_coolocalizacao_lncrna.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/1_procurar_coolocalizacao_lncrna.py" afterPath="$PROJECT_DIR$/escripts_obsoletos/1_procurar_coolocalizacao_lncrna.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/2_encontrar_marcas_cooloc.py" afterPath="$PROJECT_DIR$/escripts_obsoletos/2_encontrar_marcas_cooloc.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/3_find_refseq.py" afterPath="$PROJECT_DIR$/escripts_obsoletos/3_find_refseq.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/nova_thread_teste.py" afterPath="$PROJECT_DIR$/escripts_obsoletos/nova_thread_teste.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/setar_threads.py" afterPath="$PROJECT_DIR$/escripts_obsoletos/setar_threads.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/thread_defaut.py" afterPath="$PROJECT_DIR$/escripts_obsoletos/thread_defaut.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multiprocesso_classe.py" afterPath="$PROJECT_DIR$/multiprocesso_classe.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="topogogia rbp e lncrna.iws" />
@@ -29,10 +43,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2_encontrar_marcas_cooloc.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2_encontrar_marcas_cooloc.py">
+      <file leaf-file-name="thread_defaut.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/escripts_obsoletos/thread_defaut.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="68" selection-start="136" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="576">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2178">
               <folding />
             </state>
           </provider>
@@ -41,69 +55,72 @@
       <file leaf-file-name="multiprocesso_classe.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/multiprocesso_classe.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="22" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="1170">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="procurar_estado_chr.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/procurar_estado_chr.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="2015" selection-end="2114" vertical-scroll-proportion="0.0" vertical-offset="756" max-vertical-offset="900">
+            <state line="39" column="11" selection-start="1723" selection-end="1723" vertical-scroll-proportion="0.0" vertical-offset="246" max-vertical-offset="1422">
               <folding>
-                <marker date="1390339939514" expanded="true" signature="153:2011" placeholder="..." />
-                <marker date="1390339939514" expanded="true" signature="188:2011" placeholder="..." />
+                <element signature="e#21#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ensembl_gtf_merge.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ensembl_gtf_merge.py">
+      <file leaf-file-name="1_lincsenseml_procurar_coolocalizacao_lncrna.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/escripts_obsoletos/1_lincsenseml_procurar_coolocalizacao_lncrna.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="2409" selection-end="2486" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="810">
+            <state line="8" column="36" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="atribuir_fpkm_enseml.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/atribuir_fpkm_enseml.py">
+      <file leaf-file-name="2_procurar_estado_chr.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2_procurar_estado_chr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="32" selection-start="642" selection-end="642" vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="432">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="882">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="saida_ensembl.txt" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/saida_ensembl.txt">
+      <file leaf-file-name="3_ensembl_gtf_merge.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3_ensembl_gtf_merge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1863" column="108" selection-start="376832" selection-end="376832" vertical-scroll-proportion="0.74647886" vertical-offset="33216" max-vertical-offset="33642">
+            <state line="37" column="0" selection-start="2456" selection-end="2456" vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="828">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wgEncodeBroadHmmK562HMM.bed" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wgEncodeBroadHmmK562HMM.bed">
-          <provider selected="true" editor-type-id="LargeFileEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="k562_s3_chia_pet_pol2.bed" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/k562_s3_chia_pet_pol2.bed">
-          <provider selected="true" editor-type-id="LargeFileEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hela_s3_chia_pet_pol2.bed" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hela_s3_chia_pet_pol2.bed">
+      <file leaf-file-name="nova_thread_teste.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/escripts_obsoletos/nova_thread_teste.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1149714">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setar_threads.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/escripts_obsoletos/setar_threads.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1692">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/escripts_obsoletos/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="703">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1_procurar_interacoes.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1_procurar_interacoes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="16" selection-start="2595" selection-end="2649" vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="1152">
               <folding />
             </state>
           </provider>
@@ -127,8 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/find_refseq.py" />
-        <option value="$PROJECT_DIR$/2_encontrar_marcas_cooloc.py" />
         <option value="$PROJECT_DIR$/3_find_refseq.py" />
         <option value="$PROJECT_DIR$/linc_enseml.txt" />
         <option value="$PROJECT_DIR$/1_lincsenseml_procurar_coolocalizacao_lncrna.py" />
@@ -136,12 +151,14 @@
         <option value="$PROJECT_DIR$/thread_defaut.py" />
         <option value="$PROJECT_DIR$/nova_thread_teste.py" />
         <option value="$PROJECT_DIR$/setar_threads.py" />
-        <option value="$PROJECT_DIR$/multiprocesso_classe.py" />
-        <option value="$PROJECT_DIR$/multiprocessador.py" />
         <option value="$PROJECT_DIR$/saida_procurar_colocalizacao_lncrna.txt" />
-        <option value="$PROJECT_DIR$/procurar_estado_chr.py" />
         <option value="$PROJECT_DIR$/Ensembl.txt" />
+        <option value="$PROJECT_DIR$/multiprocesso_classe.py" />
+        <option value="$PROJECT_DIR$/escripts_obsoletos/__init__.py" />
+        <option value="$PROJECT_DIR$/multiprocessador.py" />
+        <option value="$PROJECT_DIR$/procurar_estado_chr.py" />
         <option value="$PROJECT_DIR$/Ensembl_gtf_merge.py" />
+        <option value="$PROJECT_DIR$/3_ensembl_gtf_merge.py" />
         <option value="$PROJECT_DIR$/atribuir_fpkm_enseml.py" />
       </list>
     </option>
@@ -194,6 +211,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -214,15 +232,14 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="editing.templates" />
-    <property name="options.splitter.details.proportions" value="0.2913554" />
+    <property name="recentsLimit" value="5" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2913554" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -234,6 +251,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/escripts_obsoletos" />
       <recent name="$PROJECT_DIR$/primeira analise com lncpedia files" />
     </key>
   </component>
@@ -250,7 +268,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="topogogia rbp e lncrna" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/setar_threads.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/escripts_obsoletos/setar_threads.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -598,7 +616,11 @@
       <created>1390406767152</created>
       <updated>1390406767152</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="testar script para pegar fpkm na fera">
+      <created>1390426397975</created>
+      <updated>1390426397975</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -609,11 +631,11 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3549091" sideWeight="0.6923077" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3549091" sideWeight="0.6923077" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3806818" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30769232" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30769232" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -653,7 +675,8 @@
     <MESSAGE value="programa de cromatina testar saida" />
     <MESSAGE value="colocando scritp para procurar ensembl" />
     <MESSAGE value="colocando scritp para procurar ensembl&#10;-modificando script para encontrar fragmentos que tem seu inicio ou fim dentro de um gene" />
-    <option name="LAST_COMMIT_MESSAGE" value="colocando scritp para procurar ensembl&#10;-modificando script para encontrar fragmentos que tem seu inicio ou fim dentro de um gene" />
+    <MESSAGE value="testar script para pegar fpkm na fera" />
+    <option name="LAST_COMMIT_MESSAGE" value="testar script para pegar fpkm na fera" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -661,71 +684,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nova_thread_teste.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="8" selection-start="981" selection-end="1013" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setar_threads.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="9" selection-start="1520" selection-end="1520" vertical-scroll-proportion="0.0" vertical-offset="339" max-vertical-offset="1692">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread_defaut.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="52" selection-start="0" selection-end="4744" vertical-scroll-proportion="0.0" vertical-offset="1620" max-vertical-offset="2178">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/refseq.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41248" column="16" selection-start="11813468" selection-end="11813491" vertical-scroll-proportion="-4.96" vertical-offset="742340" max-vertical-offset="884088" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/k562_s3_chia_pet_pol2.bed">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multiprocessador.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="2557" selection-end="2557" vertical-scroll-proportion="0.6495957" vertical-offset="929" max-vertical-offset="2322">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wgEncodeBroadHmmK562HMM.bed">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_encontrar_marcas_cooloc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="68" selection-start="136" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/procurar_estado_chr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="2015" selection-end="2114" vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="900">
-          <folding>
-            <marker date="1390339939514" expanded="true" signature="153:2011" placeholder="..." />
-            <marker date="1390339939514" expanded="true" signature="188:2011" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multiprocesso_classe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="22" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ensembl.txt">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state />
@@ -738,30 +696,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ensembl_gtf_merge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="2409" selection-end="2486" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="810">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/final_TSS-Cufflinks-0.9.3-GENCODE-v3c-K562-rep1.gtf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="81" selection-start="42" selection-end="67" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2034270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atribuir_fpkm_enseml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="32" selection-start="642" selection-end="642" vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="432">
+        <state line="45471" column="105" selection-start="7991578" selection-end="7991593" vertical-scroll-proportion="0.0" vertical-offset="818346" max-vertical-offset="2034270">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/saida_ensembl.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1863" column="108" selection-start="376832" selection-end="376832" vertical-scroll-proportion="0.74647886" vertical-offset="33216" max-vertical-offset="33642">
+        <state line="564" column="171" selection-start="114983" selection-end="114998" vertical-scroll-proportion="0.0" vertical-offset="9963" max-vertical-offset="33642">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/escripts_obsoletos/2_encontrar_marcas_cooloc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="68" selection-start="136" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/escripts_obsoletos/1_procurar_coolocalizacao_lncrna.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/escripts_obsoletos/nova_thread_teste.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/escripts_obsoletos/setar_threads.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multiprocesso_classe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="11" selection-start="1723" selection-end="1723" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1422">
+          <folding>
+            <element signature="e#21#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/escripts_obsoletos/thread_defaut.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2178">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/escripts_obsoletos/1_lincsenseml_procurar_coolocalizacao_lncrna.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="36" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_procurar_interacoes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="16" selection-start="2595" selection-end="2649" vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="1152">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_procurar_estado_chr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="882">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_ensembl_gtf_merge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="2456" selection-end="2456" vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="828">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/escripts_obsoletos/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
           <folding />
         </state>
       </provider>

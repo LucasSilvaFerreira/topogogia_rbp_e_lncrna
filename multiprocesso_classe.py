@@ -37,7 +37,7 @@ class thread_processador:
             inicio_valor=thread_numero*range_threads
             fim_valor=thread_numero*range_threads+range_threads-1
            # print inicio_valor,fim_valor
-           # print "Thread "+ str(thread_numero) + "SUCCESSFULLY CREATED"
+            print "Thread "+ str(thread_numero) + "SUCCESSFULLY CREATED"
             p = multiprocessing.Process(target=self.funcao, args=(inicio_valor,fim_valor))
             #p.start()
             #p.join()
