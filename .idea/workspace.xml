@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="441e2619-deac-405d-a394-8d8b4c537dcf" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linc_enseml.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1_procurar_interacoes.py" afterPath="$PROJECT_DIR$/1_procurar_interacoes.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/saida_ensembl.txt" afterPath="$PROJECT_DIR$/saida_ensembl.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Screenshot from 2014-01-28 16:14:56.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/linc_enseml_semtag.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lincrna_ensembl.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="topogogia rbp e lncrna.iws" />
@@ -588,13 +588,18 @@
       <created>1390497021985</created>
       <updated>1390497021985</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="-Usando lincrnas extraidos do ensembl com ensembl ids&#10;-corrigido bug que faz o loop quebrar na hora de procurar interações (isso fazia com que apenas a primeira interação fosse encontrada)">
+      <created>1390934224406</created>
+      <updated>1390934224406</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="52" width="1375" height="848" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -603,13 +608,12 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3806818" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14107884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14107884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -645,7 +649,8 @@
     <MESSAGE value="colocando scritp para procurar ensembl&#10;-modificando script para encontrar fragmentos que tem seu inicio ou fim dentro de um gene" />
     <MESSAGE value="testar script para pegar fpkm na fera" />
     <MESSAGE value="Testar se as modificações nos scripts anteriores fizeram efeitos&#10;-organizando scrips tentro de pastas&#10;-apenas coisas funcionais vão ficar na pasta principal&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testar se as modificações nos scripts anteriores fizeram efeitos&#10;-organizando scrips tentro de pastas&#10;-apenas coisas funcionais vão ficar na pasta principal&#10;" />
+    <MESSAGE value="-Usando lincrnas extraidos do ensembl com ensembl ids&#10;-corrigido bug que faz o loop quebrar na hora de procurar interações (isso fazia com que apenas a primeira interação fosse encontrada)" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Usando lincrnas extraidos do ensembl com ensembl ids&#10;-corrigido bug que faz o loop quebrar na hora de procurar interações (isso fazia com que apenas a primeira interação fosse encontrada)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
