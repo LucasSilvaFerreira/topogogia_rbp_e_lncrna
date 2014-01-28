@@ -11,10 +11,10 @@ class teste(thread_processador):
 
         for linha in self.arquivo_array[int(inicio):int(fim)]:
             if re.search('chr(\d+|.)\t',linha):
-                cromossomo= linha.split()[2]
-                start=linha.split()[4]
-                end=linha.split()[5]
-                name=linha.split()[1]
+                cromossomo= 'chr'+linha.split()[3]
+                start=linha.split()[1]
+                end=linha.split()[2]
+                name=linha.split()[0]
                 #print '->',name
                 #print cromossomo,start,end,name
                 for top_coordenada in self.chia_pet_file.split('\n'):
@@ -55,4 +55,4 @@ class teste(thread_processador):
 
 
 
-teste('linc_enseml.txt',4,'saida_procurar_colocalizacao_lncrna.txt')
+teste('lincrna_ensembl.txt',4,'saida_procurar_colocalizacao_lncrna.txt')
