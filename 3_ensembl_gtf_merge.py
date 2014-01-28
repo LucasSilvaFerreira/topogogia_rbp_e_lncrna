@@ -37,4 +37,4 @@ class ensembl_procura(thread_processador):
             #self.saida.write(escrever + '\n')
 
 
-ensembl_procura('saida_cromatina_hmm_estados.txt',4,'saida_ensembl.txt')
+ensembl_procura('saida_cromatina_hmm_estados.txt',70,'saida_ensembl.txt')

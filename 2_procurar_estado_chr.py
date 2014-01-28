@@ -39,5 +39,5 @@ class Procurar_cromatina(thread_processador):
         #    self.saida.write(escrever + '\n')
         #print 'concluded'
 
-Procurar_cromatina('saida_procurar_colocalizacao_lncrna.txt',4,'saida_cromatina_hmm_estados.txt')
+Procurar_cromatina('saida_procurar_colocalizacao_lncrna_uniq.txt',70,'saida_cromatina_hmm_estados.txt')
 

@@ -32,7 +32,6 @@ class teste(thread_processador):
                                     #self.saida.write(saida_join+'\n')
                                     self.array_temporario.append(saida_join)
                                     print saida_join
-                                    break
                             if cromossomo==interaction_b[0]:
                                 if int(start)> int(interaction_b[1])and int(start)< int(interaction_b[2]):
 
@@ -42,7 +41,6 @@ class teste(thread_processador):
                                     #self.saida.write(saida_join+'\n')
                                     self.array_temporario.append(saida_join)
                                     print saida_join
-                                    break
                 self.set_saida(self.array_temporario)
                 #for escrever in self.array_temporario:
                 #    self.saida.write(escrever+'\n')
@@ -55,4 +53,4 @@ class teste(thread_processador):
 
 
 
-teste('lincrna_ensembl.txt',4,'saida_procurar_colocalizacao_lncrna.txt')
+teste('lincrna_ensembl.txt',70,'saida_procurar_colocalizacao_lncrna.txt')
