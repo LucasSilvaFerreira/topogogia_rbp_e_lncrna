@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="441e2619-deac-405d-a394-8d8b4c537dcf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Screenshot from 2014-01-28 16:14:56.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/linc_enseml_semtag.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lincrna_ensembl.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1_procurar_interacoes.py" afterPath="$PROJECT_DIR$/1_procurar_interacoes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/saida_procurar_colocalizacao_lncrna.txt" afterPath="$PROJECT_DIR$/saida_procurar_colocalizacao_lncrna.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="topogogia rbp e lncrna.iws" />
@@ -67,7 +66,7 @@
       <file leaf-file-name="1_procurar_interacoes.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1_procurar_interacoes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="36" selection-start="598" selection-end="598" vertical-scroll-proportion="0.21081081" vertical-offset="171" max-vertical-offset="1152">
+            <state line="14" column="38" selection-start="505" selection-end="505" vertical-scroll-proportion="0.4390244" vertical-offset="54" max-vertical-offset="1152">
               <folding />
             </state>
           </provider>
@@ -219,25 +218,7 @@
       <recent name="$PROJECT_DIR$/primeira analise com lncpedia files" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.3_ensembl_gtf_merge">
-    <configuration default="false" name="multiprocessador" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="topogogia rbp e lncrna" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multiprocessador.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.1_procurar_interacoes">
     <configuration default="false" name="procurar_estado_chr" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -305,6 +286,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="topogogia rbp e lncrna" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3_ensembl_gtf_merge.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="1_procurar_interacoes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="topogogia rbp e lncrna" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1_procurar_interacoes.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -432,19 +431,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.multiprocessador" />
-      <item index="1" class="java.lang.String" itemvalue="Python.procurar_estado_chr" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Ensembl_gtf_merge" />
-      <item index="3" class="java.lang.String" itemvalue="Python.atribuir_fpkm_enseml" />
-      <item index="4" class="java.lang.String" itemvalue="Python.3_ensembl_gtf_merge" />
+      <item index="0" class="java.lang.String" itemvalue="Python.procurar_estado_chr" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Ensembl_gtf_merge" />
+      <item index="2" class="java.lang.String" itemvalue="Python.atribuir_fpkm_enseml" />
+      <item index="3" class="java.lang.String" itemvalue="Python.3_ensembl_gtf_merge" />
+      <item index="4" class="java.lang.String" itemvalue="Python.1_procurar_interacoes" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.3_ensembl_gtf_merge" />
-        <item index="1" class="java.lang.String" itemvalue="Python.atribuir_fpkm_enseml" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Ensembl_gtf_merge" />
-        <item index="3" class="java.lang.String" itemvalue="Python.procurar_estado_chr" />
-        <item index="4" class="java.lang.String" itemvalue="Python.multiprocessador" />
+        <item index="0" class="java.lang.String" itemvalue="Python.1_procurar_interacoes" />
+        <item index="1" class="java.lang.String" itemvalue="Python.3_ensembl_gtf_merge" />
+        <item index="2" class="java.lang.String" itemvalue="Python.atribuir_fpkm_enseml" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Ensembl_gtf_merge" />
+        <item index="4" class="java.lang.String" itemvalue="Python.procurar_estado_chr" />
       </list>
     </recent_temporary>
   </component>
@@ -592,7 +591,11 @@
       <created>1390934224406</created>
       <updated>1390934224406</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="arquivos que faltaram commit&#10;&#10;-Usando lincrnas extraidos do ensembl com ensembl ids&#10;-corrigido bug que faz o loop quebrar na hora de procurar interações (isso fazia com que apenas a primeira interação fosse encontrada)">
+      <created>1390934441554</created>
+      <updated>1390934441554</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -604,11 +607,11 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19810633" sideWeight="0.8589212" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19810633" sideWeight="0.7150761" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3806818" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14107884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28492394" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -626,7 +629,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="corrigindo erro da falta de enter na saida do arquivo" />
     <MESSAGE value="todos os 3 scritpts numerados por ordem de execução" />
     <MESSAGE value="todos os 3 scritpts numerados por ordem de execução...agora sim" />
     <MESSAGE value="todos os 3 scritpts numerados por ordem de execução...agora sim_agora sim 2" />
@@ -650,7 +652,9 @@
     <MESSAGE value="testar script para pegar fpkm na fera" />
     <MESSAGE value="Testar se as modificações nos scripts anteriores fizeram efeitos&#10;-organizando scrips tentro de pastas&#10;-apenas coisas funcionais vão ficar na pasta principal&#10;" />
     <MESSAGE value="-Usando lincrnas extraidos do ensembl com ensembl ids&#10;-corrigido bug que faz o loop quebrar na hora de procurar interações (isso fazia com que apenas a primeira interação fosse encontrada)" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Usando lincrnas extraidos do ensembl com ensembl ids&#10;-corrigido bug que faz o loop quebrar na hora de procurar interações (isso fazia com que apenas a primeira interação fosse encontrada)" />
+    <MESSAGE value="arquivos que faltaram commit&#10;&#10;-Usando lincrnas extraidos do ensembl com ensembl ids&#10;-corrigido bug que faz o loop quebrar na hora de procurar interações (isso fazia com que apenas a primeira interação fosse encontrada)" />
+    <MESSAGE value="arquivos que faltaram commit&#10;*corrigido bug que não deixava os cromossomos serem lidos&#10;-Usando lincrnas extraidos do ensembl com ensembl ids&#10;-corrigido bug que faz o loop quebrar na hora de procurar interações (isso fazia com que apenas a primeira interação fosse encontrada)" />
+    <option name="LAST_COMMIT_MESSAGE" value="arquivos que faltaram commit&#10;*corrigido bug que não deixava os cromossomos serem lidos&#10;-Usando lincrnas extraidos do ensembl com ensembl ids&#10;-corrigido bug que faz o loop quebrar na hora de procurar interações (isso fazia com que apenas a primeira interação fosse encontrada)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -721,7 +725,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/linc_enseml_semtag.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="51" selection-start="1426" selection-end="1426" vertical-scroll-proportion="-6.48" vertical-offset="0" max-vertical-offset="389448" />
+        <state line="9" column="51" selection-start="1426" selection-end="1426" vertical-scroll-proportion="-6.48" vertical-offset="0" max-vertical-offset="389448">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lncipedia.bed.txt">
@@ -745,7 +751,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1_procurar_interacoes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="36" selection-start="598" selection-end="598" vertical-scroll-proportion="0.21081081" vertical-offset="171" max-vertical-offset="1152">
+        <state line="14" column="38" selection-start="505" selection-end="505" vertical-scroll-proportion="0.4390244" vertical-offset="54" max-vertical-offset="1152">
           <folding />
         </state>
       </provider>

@@ -10,7 +10,7 @@ class teste(thread_processador):
         self.chia_pet_file=open('k562_s3_chia_pet_pol2.bed','r').read()
 
         for linha in self.arquivo_array[int(inicio):int(fim)]:
-            if re.search('chr(\d+|.)\t',linha):
+            if len(linha)>0:
                 cromossomo= 'chr'+linha.split()[3]
                 start=linha.split()[1]
                 end=linha.split()[2]
