@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="441e2619-deac-405d-a394-8d8b4c537dcf" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GSM880698_Enriched_LncRNAs.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wgEncodeCaltechRnaSeqHelas3R2x75Il200TSSRep1V3.gtf.gz" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/#1_procurar_interacoes.py#" afterPath="$PROJECT_DIR$/#1_procurar_interacoes.py#" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1_procurar_interacoes.py" afterPath="$PROJECT_DIR$/1_procurar_interacoes.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/saida_procurar_colocalizacao_lncrna.txt" afterPath="$PROJECT_DIR$/saida_procurar_colocalizacao_lncrna.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -27,64 +30,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="3_ensembl_gtf_merge.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3_ensembl_gtf_merge.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="46" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="828">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lncipedia.bed.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lncipedia.bed.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="386892">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="saida_ensembl.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/saida_ensembl.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="4_atribuir_fpkm_enseml.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4_atribuir_fpkm_enseml.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="1_procurar_interacoes.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1_procurar_interacoes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="38" selection-start="505" selection-end="505" vertical-scroll-proportion="0.4390244" vertical-offset="54" max-vertical-offset="1152">
+            <state line="43" column="33" selection-start="2678" selection-end="2678" vertical-scroll-proportion="1.6192468" vertical-offset="0" max-vertical-offset="1044">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lincrna_ensembl.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lincrna_ensembl.txt">
+      <file leaf-file-name="GSM880698_Enriched_LncRNAs.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GSM880698_Enriched_LncRNAs.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="23" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="209700">
+            <state line="0" column="95" selection-start="86" selection-end="87" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="468378">
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="saida_procurar_colocalizacao_lncrna.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/saida_procurar_colocalizacao_lncrna.txt">
-          <provider selected="true" editor-type-id="LargeFileEditor">
-            <state />
           </provider>
         </entry>
       </file>
@@ -97,6 +57,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -106,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/competidor_threading.py" />
         <option value="$PROJECT_DIR$/thread_defaut.py" />
         <option value="$PROJECT_DIR$/nova_thread_teste.py" />
         <option value="$PROJECT_DIR$/setar_threads.py" />
@@ -121,15 +85,16 @@
         <option value="$PROJECT_DIR$/atribuir_fpkm_enseml.py" />
         <option value="$PROJECT_DIR$/apagaragora.py" />
         <option value="$PROJECT_DIR$/lincrna_ensembl.txt" />
+        <option value="$PROJECT_DIR$/#1_procurar_interacoes.py#" />
         <option value="$PROJECT_DIR$/1_procurar_interacoes.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="52" />
+    <option name="y" value="24" />
     <option name="width" value="1375" />
-    <option name="height" value="848" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -187,7 +152,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="topogogia rbp e lncrna" />
+              <option name="myItemId" value="topogogia_rbp_e_lncrna" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -198,11 +163,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="editing.templates" />
+    <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2913554" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2913554" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -599,24 +564,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="52" width="1375" height="848" extended-state="0" />
+    <frame x="65" y="24" width="1375" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19810633" sideWeight="0.7150761" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19345455" sideWeight="0.6666667" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3806818" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28492394" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -662,21 +627,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/escripts_obsoletos/setar_threads.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1692" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/escripts_obsoletos/thread_defaut.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2178" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/escripts_obsoletos/1_lincsenseml_procurar_coolocalizacao_lncrna.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="36" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2_procurar_estado_chr.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="882" />
@@ -685,13 +635,6 @@
     <entry file="file://$PROJECT_DIR$/escripts_obsoletos/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4_atribuir_fpkm_enseml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/final_TSS-Cufflinks-0.9.3-GENCODE-v3c-K562-rep1.gtf">
@@ -716,18 +659,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/saida_ensembl.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="294">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/linc_enseml_semtag.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="51" selection-start="1426" selection-end="1426" vertical-scroll-proportion="-6.48" vertical-offset="0" max-vertical-offset="389448">
-          <folding />
-        </state>
+        <state line="9" column="51" selection-start="1426" selection-end="1426" vertical-scroll-proportion="-6.48" vertical-offset="0" max-vertical-offset="389448" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lncipedia.bed.txt">
@@ -737,9 +671,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/saida_procurar_colocalizacao_lncrna.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state />
+    <entry file="file://$PROJECT_DIR$/saida_ensembl.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="294">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_atribuir_fpkm_enseml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lincrna_ensembl.txt">
@@ -749,9 +692,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/saida_procurar_colocalizacao_lncrna.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wgEncodeCaltechRnaSeqHelas3R2x75Il200TSSRep1V3.gtf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2034126">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/#1_procurar_interacoes.py#">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="47" selection-start="1256" selection-end="1256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1116">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GSM880698_Enriched_LncRNAs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="95" selection-start="86" selection-end="87" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="468378">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1_procurar_interacoes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="38" selection-start="505" selection-end="505" vertical-scroll-proportion="0.4390244" vertical-offset="54" max-vertical-offset="1152">
+        <state line="43" column="33" selection-start="2678" selection-end="2678" vertical-scroll-proportion="1.6192468" vertical-offset="0" max-vertical-offset="1044">
           <folding />
         </state>
       </provider>

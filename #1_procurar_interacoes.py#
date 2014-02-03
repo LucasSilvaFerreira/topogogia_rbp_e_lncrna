@@ -53,4 +53,4 @@ class teste(thread_processador):
 
 
 
-teste('lincrna_ensembl.txt',70,'saida_procurar_colocalizacao_lncrna.txt')
+teste('lincrna_ensembl.txt',4,'saida_procurar_colocalizacao_lncrna.txt')
